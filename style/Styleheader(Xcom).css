@@ -1,0 +1,69 @@
+/*header*/
+
+
+header{
+    display: flex;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start:1 ;
+    grid-row-end:1 ;
+}
+
+.headermayor{
+    display: flex;
+    border-style: solid;
+    width: 100%;
+    justify-content: space-between;
+    background-image: url("https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgfL1C7OMBfV3XyDwQX7IS7r5GVL7UPnX_lVlXAmPMT5wHsWk_q1343QkfwVRFvj5ICDf87GEX6V9azXUKXHQkT_4Diih5gJ8JCaZBVjJ5NHRNhK2fJa3bK3ECjp7TBzg1d5TNPZwaJol0O/s1600/Alien+Rulers.jpg");
+    background-repeat: repeat-x;
+    background-size: contain;
+    background-position-x: center;
+    padding: 1%;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start:auto;
+    grid-row-end:1 ;
+}
+
+.cont{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-style: solid;
+    background-color: black;
+    width: 10%;
+    padding: 0.1%;
+}
+
+.img1{
+    justify-content: center;
+    align-items: center;
+    padding: 0.2px;
+    width: 100%;
+    height: 100%;
+}
+
+.aloha{
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+    color: white;
+}
+
+.cabeizq{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-style: solid;
+    background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/2239eadd-f137-4093-b1f1-494728007453/dbh929d-778c1ea0-31db-4d90-8b03-883b43a2ef05.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzIyMzllYWRkLWYxMzctNDA5My1iMWYxLTQ5NDcyODAwNzQ1M1wvZGJoOTI5ZC03NzhjMWVhMC0zMWRiLTRkOTAtOGIwMy04ODNiNDNhMmVmMDUuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.T3f_pcMHuIyVck6GvBhNghnHZbclX4yDCalnVKlQ4mE");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    /* background-color: black; */
+    width: 15%;
+    opacity: 0.9;
+}
+
+.p1{
+    color: white;
+    text-decoration:underline;
+}
