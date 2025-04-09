@@ -1,0 +1,28 @@
+/* footer */
+footer{
+    margin: 30px;
+    background: linear-gradient(to center,white);
+    height: 115px;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start:3 ;
+    grid-row-end:4 ;
+}
+
+#foter{
+    display: flex;
+    height:70%;
+    font-size: larger;
+    /* justify-content: center; */
+    justify-items: center;
+    align-content: center;
+    justify-self: center;
+    /* align-self: center; */
+}
+
+.fot{
+    justify-items: center;
+    align-content: center;
+    justify-self: center;
+    display: flex;
+}
