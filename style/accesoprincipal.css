@@ -1,0 +1,71 @@
+*{  
+    /* display: flex; */
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+/* header */
+
+header{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.Mothership{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    justify-items: center;
+    align-content: center;
+}
+
+.fuenteycolor{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+/* body */
+.main_background{
+    display: grid;
+    grid-template-columns:30% 40% 30%;
+    grid-template-rows: repeat(10, 93%);
+    background-color: black;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    
+}
+
+.login{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 9;
+    border-radius: 20%;
+}
+
+.imagencompañia1{
+    background-image: url('../imagenes/image-removebg-preview.png');
+    background-repeat: no-repeat;
+    background-position-x: center;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 11;
+    opacity: 0.3;
+
+}
+
+.imagencompañia2{
+    background-image: url('../imagenes/image-removebg-preview.png');
+    background-repeat: no-repeat;
+    background-position-x: center;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 11;
+    opacity: 0.2;
+}
