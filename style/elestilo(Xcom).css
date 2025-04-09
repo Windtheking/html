@@ -14,7 +14,7 @@ body {
     background: black;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 20% 60% 20%;
+    grid-template-rows: 20% 70% 25%;
     width: 100%;
     /* grid-column-start: 1;
     grid-column-end: 3; */
