@@ -1,8 +1,8 @@
 /*para importar otros css solo se necesita usar el comando @import*/
 
-@import url('/style/Styleheader(Xcom).css'); /* @import url(''); */
-@import url('/style/stylebody\(Xcom\).css');
-@import url('/style/stylefooter\(Xcom\).css');
+@import url('/style/Styleheader\(Xcommain\).css'); /* @import url(''); */
+@import url('/style/stylebody\(Xcommain\).css');
+@import url('/style/stylefooter\(Xcommain\).css');
 *{  
     /* display: flex; */
     padding: 0px;
