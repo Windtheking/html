@@ -32,28 +32,57 @@ header{
     font-size: medium;
     align-self: center;
     justify-self: center;
-    justify-content: ;
 }
 
 
 /* body */
+
+
 .main_background{
     display: grid;
-    grid-template-columns:30% 40% 30%;
-    grid-template-rows: repeat(10, 93%);
-    background-color: black;
-    background-repeat: no-repeat;
+    grid-template-columns:15% 15 40% 15% 15;
+    grid-template-rows: repeat(4, 140%);
+    background:radial-gradient(black, 85%, cyan);
+    background-repeat: repeat;
     background-position-x: center;
     
 }
 
 .login{
+    display:inline-flex;
+    flex-direction: column;
+    background-image: url("../imagenes/istockphoto-1167313459-612x612-removebg-preview.png");
+    background-position-x: 50%;
+    background-size:cover;
+    color: white; 
     grid-column-start: 2;
     grid-column-end: 3;
     grid-row-start: 2;
-    grid-row-end: 9;
+    grid-row-end: 4;
+    border-radius: 20%;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+}
+
+.ussername input{
+    position: relative;
+    background-color: transparent;
+    width: 15vw;
+    height: 4vh;
+    border-radius: 20%;
+    padding: 1vh;
+
+}
+
+.password input{
+    position: relative;
+    background-color: transparent;
+    width: 15vw;
+    height: 4vh;
     border-radius: 20%;
 }
+
 
 .imagencompañia1{
     background-image: url('../imagenes/image-removebg-preview.png');
@@ -64,7 +93,6 @@ header{
     grid-row-start: 2;
     grid-row-end: 11;
     opacity: 0.3;
-
 }
 
 .imagencompañia2{
@@ -76,4 +104,27 @@ header{
     grid-row-start: 2;
     grid-row-end: 11;
     opacity: 0.2;
+}
+
+.avengers{
+    font-family: Impact, Charcoal, sans-serif;
+    font-size: 23px;
+    letter-spacing: 1.4px;
+    word-spacing: -2.4px;
+    font-weight: 400;
+}
+
+.acceses{
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.acceses button{
+    background-color: transparent;
+}
+
+button{
+    grid-column-start:2 ;
+    grid-column-end: 3;
 }
