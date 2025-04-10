@@ -40,9 +40,9 @@ header{
 
 .main_background{
     display: grid;
-    grid-template-columns:15% 15 40% 15% 15;
-    grid-template-rows: repeat(4, 140%);
-    background:radial-gradient(black, 85%, cyan);
+    grid-template-columns:15% 15% 40% 15% 15%;
+    grid-template-rows: 70% 140% 140% 50%;
+    background:radial-gradient(black, 92%, rgb(255, 0, 0));
     background-repeat: repeat;
     background-position-x: center;
     
@@ -51,18 +51,28 @@ header{
 .login{
     display:inline-flex;
     flex-direction: column;
-    background-image: url("../imagenes/istockphoto-1167313459-612x612-removebg-preview.png");
+    background-color: black;
     background-position-x: 50%;
     background-size:cover;
     color: white; 
-    grid-column-start: 2;
-    grid-column-end: 3;
+    grid-column-start: 3;
+    grid-column-end: 4;
     grid-row-start: 2;
     grid-row-end: 4;
     border-radius: 20%;
     justify-content: center;
     align-items: center;
     margin: 5px;
+}
+
+.cuadroazul{
+    background-color: rgb(0, 204, 204);
+    width: 97%;
+    height: 80%;
+    border-radius: 20%;
+    justify-items:center;
+    align-content: center;
+    opacity: 0.7;
 }
 
 .ussername input{
@@ -72,7 +82,6 @@ header{
     height: 4vh;
     border-radius: 20%;
     padding: 1vh;
-
 }
 
 .password input{
@@ -81,29 +90,6 @@ header{
     width: 15vw;
     height: 4vh;
     border-radius: 20%;
-}
-
-
-.imagencompañia1{
-    background-image: url('../imagenes/image-removebg-preview.png');
-    background-repeat: no-repeat;
-    background-position-x: center;
-    grid-column-start: 1;
-    grid-column-end: 2;
-    grid-row-start: 2;
-    grid-row-end: 11;
-    opacity: 0.3;
-}
-
-.imagencompañia2{
-    background-image: url('../imagenes/image-removebg-preview.png');
-    background-repeat: no-repeat;
-    background-position-x: center;
-    grid-column-start: 3;
-    grid-column-end: 4;
-    grid-row-start: 2;
-    grid-row-end: 11;
-    opacity: 0.2;
 }
 
 .avengers{
@@ -121,10 +107,35 @@ header{
 }
 
 .acceses button{
-    background-color: transparent;
+    background-color: black;
+    color: white;
+    border-style:groove;
+    border-radius:30% ;
 }
 
 button{
     grid-column-start:2 ;
     grid-column-end: 3;
+}
+
+.imagencompañia1{
+    background-image: url('../imagenes/image-removebg-preview.png');
+    background-repeat: no-repeat;
+    background-position-x: center;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 11;
+    opacity: 0.3;
+}
+
+.imagencompañia2{
+    background-image: url('../imagenes/image-removebg-preview.png');
+    background-repeat: no-repeat;
+    background-position-x: center;
+    grid-column-start: 4;
+    grid-column-end: 6;
+    grid-row-start: 2;
+    grid-row-end: 11;
+    opacity: 0.2;
 }
