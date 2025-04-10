@@ -1,0 +1,17 @@
+@import url("../style/estilobitacora\(header\).css");
+@import url("../style/estilobitacora\(body\).css");
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background: black;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 35% 70% 25%;
+    width: 100%;
+}
+

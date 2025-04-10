@@ -1,0 +1,123 @@
+.gridcont{
+    height: 100%;
+    grid-column-start: 1;
+    grid-column-end:4 ;
+}
+
+.contenedor{
+    background-color: transparent;
+    padding: 1%;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start:1 ;
+    grid-row-end:2 ;    
+}
+
+.minicontenedor2{
+    width: 60%;
+    margin: 1vh;
+    grid-column-start:1 ;
+    grid-column-end:4 ;
+    grid-row-start:1 ;
+    grid-row-end:2 ;
+    color: white;
+}
+
+#info{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(5 20%);
+    row-gap: 3px;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-end: 4;
+    column-gap: 3px;
+}
+
+.barra1{
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+    display: flex;
+    color: white;
+    background-color: transparent;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.barra2{
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+    display: flex;
+    color: white;
+    background-color: transparent;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.barra3{
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+    display: flex;
+    color: white;
+    background-color: transparent;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+.barra4{
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+    display: flex;
+    color: white;
+    background-color: transparent;
+    grid-row-start: 4;
+    grid-row-end: 5;
+}
+
+.barra5{
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+    display: flex;
+    color: white;
+    background-color: transparent;
+    grid-row-start: 5;
+    grid-row-end: 6;
+
+}
+
+#barra:hover{
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+    display: flex; 
+    border-style:solid;
+    border-color: rgb(0, 0, 0);
+    background-color: rgb(0, 242, 255);
+    border-radius: 10%;
+    animation: forwards;
+}
+
+.minicontenedor3{
+    /* border-style: solid; */
+    width: 20%;
+    margin: 1rem;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-y: 100%;
+    justify-content:end;
+    grid-row-start:1 ;
+    grid-row-end: 2;
+    grid-column-start:1 ;
+    grid-column-end:4 ; 
+}
