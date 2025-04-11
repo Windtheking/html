@@ -14,24 +14,34 @@
 }
 
 .minicontenedor2{
-    width: 60%;
+    display: inline-flex;
+    width: 75%;
+    height: 40vh;
     margin: 1vh;
-    grid-column-start:1 ;
-    grid-column-end:4 ;
-    grid-row-start:1 ;
-    grid-row-end:2 ;
-    color: white;
+    color: rgb(0, 0, 0);
+    background: #ff0088;
+    background: linear-gradient(8deg, rgba(255, 0, 136, 1) 0%, rgba(209, 0, 136, 1) 16%, rgba(154, 87, 199, 1) 36%, rgba(183, 0, 255, 1) 54%, rgba(36, 131, 255, 1) 74%, rgba(255, 0, 195, 1) 95%);
+    border-right: solid rgb(102,0,255) 2vh;
+    border-left: solid rgb(132, 0, 255) 2vh;
+    border-top: solid rgb(162, 0, 255) 2vh;
+    border-bottom: solid rgb(192, 0, 255) 2vh;
 }
 
+.minicontenedor2 p{
+    text-align: justify;
+}
+
+
 #info{
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(5 20%);
-    row-gap: 3px;
-    grid-row-start: 1;
-    grid-row-end: 2;
-    grid-column-end: 4;
-    column-gap: 3px;
+    display: inline-flex;
+    grid-column-start:1 ;
+    grid-column-end:2 ;
+    align-items:flex-start ;
+    font-size: 3vh;
+    border: solid white 1vh;
+    width: 20%;
+    flex-direction: column;
+    height: 50vh;
 }
 
 .barra1{
@@ -44,6 +54,7 @@
     background-color: transparent;
     grid-row-start: 1;
     grid-row-end: 2;
+    margin:2vh;
 }
 
 .barra2{
@@ -56,6 +67,7 @@
     background-color: transparent;
     grid-row-start: 2;
     grid-row-end: 3;
+    margin:2vh;
 }
 
 .barra3{
@@ -68,6 +80,7 @@
     background-color: transparent;
     grid-row-start: 3;
     grid-row-end: 4;
+    margin:2vh;
 }
 
 .barra4{
@@ -80,6 +93,7 @@
     background-color: transparent;
     grid-row-start: 4;
     grid-row-end: 5;
+    margin:2vh;
 }
 
 .barra5{
@@ -92,6 +106,7 @@
     background-color: transparent;
     grid-row-start: 5;
     grid-row-end: 6;
+    margin:2vh;
 
 }
 

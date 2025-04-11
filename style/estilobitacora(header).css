@@ -8,10 +8,8 @@ header{
 
 .headermayor{
     display: flex;
-    border-style: solid;
     width: 100%;
     justify-content: center;
-    background-image: url("https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgfL1C7OMBfV3XyDwQX7IS7r5GVL7UPnX_lVlXAmPMT5wHsWk_q1343QkfwVRFvj5ICDf87GEX6V9azXUKXHQkT_4Diih5gJ8JCaZBVjJ5NHRNhK2fJa3bK3ECjp7TBzg1d5TNPZwaJol0O/s1600/Alien+Rulers.jpg");
     background-repeat: repeat-x;
     background-size: contain;
     background-position-x: center;

@@ -3,6 +3,17 @@ let contraseñaValida = "1234"
 
 const botonIngresar = document.querySelector(".ingreso");
 let contador = 0;
+let permisos = "permitido"
+
+// window.addEventListener("DOMContentLoaded",function(){
+//     let permiso = localStorage.getItem("autorizacion")
+
+//     if (permiso === "negado") {
+//         document.getElementById("usuario").disabled = true;
+//         document.getElementById("contraseña").disabled = true;
+//         botonIngresar.disabled = true;
+//     }
+// });
 
 botonIngresar.addEventListener("click",function(){
     const usuario = document.getElementById("usuario").value.trim();       //aqui se establece una constante que busca en el documento (documente.) un elemento con la Id usuario(getElementById). El ".value.trim()" posterior a la busqueda es para evitar problemas si pone algun espacio antes o despues del valor
