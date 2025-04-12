@@ -1,0 +1,254 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+html{
+    grid-template-columns: 1fr;
+    grid-template-rows: 100% 400% 100%;
+}
+
+.header{
+    min-height: 150px;
+    display: inline-flex;
+    width: 100%;
+    height: 100%;
+}
+
+.oferta{
+    width: 100%;
+}
+
+.contenedordeseccion{
+    width: 100%;
+}
+
+#section1{
+    display: inline-flex;
+    background:#FF8352;
+    width: 100%;
+    height: 50%;
+    text-align: center;
+    font-size: 3vh;
+    padding-top: 0.5vh;
+}
+
+#section1 a{
+    text-decoration: none;
+    color: black;
+}
+
+#section1 a:hover{
+    text-decoration: underline;
+    color: black;
+}
+
+#section2{
+    display: inline-flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 2vh;
+}
+
+
+.contenedor_titulo{
+    display: flex;
+    background-color: #FF5B19;
+    width: 100%;
+    height: 150%;
+    justify-content: space-evenly;
+    align-items: center;
+    justify-items: center;
+}
+
+.sandwiches_maravilla{
+    display: flex;
+    background-color: #FF194B;
+    height: 45%;
+    width: 20%;
+    justify-content: start;
+    align-items: center;
+    padding: 2vh;
+    font-size: 3vh;
+    border-radius: 2vh;
+}
+
+.contenedorslogan{
+    display: flex; 
+    width: 20%;
+    font-size: 2.5vh;
+}
+
+#section3{
+    display: inline-flex;
+    background-color: white;
+    width: 100%;
+    height: 5vh;
+    box-shadow: 1vh 1vh 1vh black;
+    align-items: center;
+    
+}
+
+#section3 div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+    width: 33%;
+}
+
+.menu{
+    display: flex;
+    /* background-color: transparent; */
+    border:none;
+}
+
+.menu:hover{
+    background-color: #19FFCE  ;
+    border-radius: 2vh;
+    height: 5vh;
+    width: 30vh;
+}
+
+.prank{
+    display: flex;
+    /* background-color: transparent; */
+    border:none;
+}
+
+.prank:hover{
+    background-color: #19BEFF;
+    border-radius: 2vh;
+    height: 5vh;
+    width: 30vh;
+}
+
+.regre{
+    display: flex;
+    /* background-color: transparent; */
+    border:none;
+}
+
+.regre:hover{
+    background-color: #194BFF;
+    border-radius: 2vh;
+    height: 5vh;
+    width: 30vh;
+}
+
+.subs{
+    display: flex;
+    /* background-color: transparent; */
+    border:none;
+}
+
+.subs:hover{
+    background-color: #0f35be;
+    border-radius: 2vh;
+    height: 5vh;
+    width: 30vh;
+}
+
+/* body */
+
+body{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    background-image: url("/imagenes/construir-una-pared-de-madera.webp");
+    background-repeat: no-repeat;
+    background-size:cover;
+    flex-wrap: wrap;
+}
+
+.contenedordecajas{
+    display: flex    ;
+    flex-wrap: wrap;
+    gap: 1vh;
+    justify-content: space-around;
+    width: 70%;
+    gap: 5vh;
+    align-self: center;
+    justify-self: center;
+    margin-top: 30vh;
+    padding-bottom: 4vh;
+    padding-left: 10vh ;
+    padding-right: 10vh ;
+}
+
+.caja_de_ofertas{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    align-self: center;
+    width: 50vh;   
+    height: 50vh;
+    border-radius: 4vh;
+}
+
+.caja_de_ofertas img{
+    padding: 2vh 2vh 2vh 1vh;
+}
+
+#ofer1{
+    justify-content: space-evenly;
+}
+
+#ofer2{
+    justify-content: space-evenly;
+}
+
+#ofer3{
+    justify-content: space-evenly;
+}
+
+#ofer4{
+    justify-content: space-evenly;
+}
+
+.flexiblerow{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+/* footer */
+
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    background-color: beige;
+    height: 10vh;
+}
+
+.copyrightext{
+    display: inline-flex;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    margin: 3vh;
+}
+
+.copyright{
+    width: 3vh;
+    height: 3vh;
+}
+
+.regreso{
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+    a{
+        text-decoration: none;
+        color: black;
+    }
+
+    a:hover{
+        text-decoration: underline;
+    }
+}

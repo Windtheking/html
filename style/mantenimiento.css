@@ -1,0 +1,22 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    background-image:url("../imagenes/trabajo-en\ obra.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.imagen_mantenimiento{
+    display: flex;
+    margin: auto;
+    width: 180vh;
+    height: 80vh;
+    margin: 7vh;
+    margin-right: 15vh;
+    padding-left: 27vh;
+    justify-content: center;
+}
