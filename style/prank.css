@@ -1,0 +1,44 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    height:100vh;
+
+}
+
+div{
+    display: flex;
+    
+}
+
+.flexal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    align-self: center;
+    height: 100vh;
+    width: 100%;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    align-self: center;
+    font-size: 10vh;
+}
+
+.elregreso{
+    border-style: solid;
+    border-radius: 2vh;
+    text-decoration: none;
+    color: black;
+    font-size: 10vh;
+}
