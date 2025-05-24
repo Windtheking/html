@@ -1,5 +1,5 @@
-let sound = nexw.audio("../audio/maniacal-laughter-177313.mp3");
+let sound = new Audio("../audio/maniacal-laughter.mp3");
 
 document.addEventListener("DOMContentLoaded",function(){
     sound.play();
-});
+}); 
